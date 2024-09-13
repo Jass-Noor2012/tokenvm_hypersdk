@@ -18,17 +18,16 @@
 
 ## Project Overview
 
-This guide walks you through the process of utilizing the Avalanche HyperSDK to create a customized virtual machine and subnet on the Avalanche platform. HyperSDK enables developers to design and tailor blockchains for specific purposes such as token creation, transfers, and asset management.
+This guide walks you through the process of utilizing the Avalanche HyperSDK to create a customized virtual machine and subnet on the Avalanche platform. HyperSDK enables developers to design and tailor blockchains for specific purposes such as token creation, minting, check balance, and asset management.
 
 ## Features
 
-1. Custom Virtual Machine: Build and customize a blockchain using HyperSDK.
-2. Token Management: Define and manage rules for token creation, minting, and transfers.
-3. Order Book Management: Create and handle an order book for asset trading.
+1. __Custom Virtual Machine:__ Build and customize a blockchain using HyperSDK.
+2. __Asset Management:__ Define and manage rules for asset creation, minting, and check balance.
 
 ## Objective
 
-Our startup aims to develop a custom virtual machine to facilitate token minting and transfer operations. HyperSDK offers the flexibility needed to construct a blockchain with precise functionality, including token management and asset trading.
+Our startup aims to develop a custom virtual machine to facilitate token minting and check balance operations. HyperSDK offers the flexibility needed to construct a blockchain with precise functionality, including token management and asset trading.
 
 ## Important Note
 
@@ -223,7 +222,7 @@ continue (y/n): y
 ✅ txID: X1E5CVFgFFgniFyWcj5wweGg66TyzjK2bMWWTzFwJcwFYkF81
 ```
 
-### View Your Balance
+#### Step 3: View Your Balance
 
 Unlike the mint and trade demo, the AWM demo only requires running a single
 command. You can kick off a transfer between the 2 Subnets you created by
@@ -242,8 +241,8 @@ assetID (use TKN for native token): 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4A
 metadata: jasnoor supply: 24500 warp: false
 balance: 24500 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4Appavug
 
-
-### Closing the Local Avalanche Network:
+```
+#### Step 4: Closing the Local Avalanche Network:
 To shut down the local Avalanche network, run:
 
 ```bash
@@ -254,7 +253,7 @@ killall avalanche-network-runner
 
 We have successfully created a custom virtual machine to handle token minting and transfers. By using HyperSDK, you can further tailor the blockchain to meet your specific requirements.
 ## ⚠️⚠️ Help
-During Asset ID check for spaces when writing assest ID and other addresses.
+During Asset ID check for spaces when writing assest ID and other addresses.Also check your internet connectivity while doing all this.
 Here's some additional Help...😁
 https://www.loom.com/share/a12a6c9a9e8745799bcce467e184d18b
 
